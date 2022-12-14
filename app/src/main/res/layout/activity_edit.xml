@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Movie name"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edt_background"/>
+    <EditText
+        android:id="@+id/edt_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Movie author"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edt_background"/>
+    <EditText
+        android:id="@+id/edt_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Movie about"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edt_background"/>
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Movie date"
+        android:inputType="datetime"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edt_background"/>
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="edit"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="right"/>
+
+
+
+</LinearLayout>
